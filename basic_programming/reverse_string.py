@@ -25,6 +25,7 @@ reversed_str1_reversed = ''.join(reversed(str1))
 print("Using reversed() and join():", reversed_str1_reversed)
 
 # Using a loop
+str1 = "Aisworya Panda"
 str2 = ""
 for char in str1:
     str2 = char + str2
@@ -36,3 +37,5 @@ reversed_str1_stack = ""
 while stack:
     reversed_str1_stack += stack.pop()
 print("Using a stack:", reversed_str1_stack)
+
+
